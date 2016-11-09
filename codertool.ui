@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>codertool</class>
+ <widget class="QMainWindow" name="codertool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1019</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>coder工具包</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>img/addons.ico</normaloff>img/addons.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="content">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1001</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>时间戳</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>27</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>当时时间</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="push_timetodate">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>80</y>
+        <width>112</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>转换</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>90</y>
+        <width>61</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>时间戳</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dateTime2">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>80</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>71</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>日期格式</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="timestamp3">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>140</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>27</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>当时时间戳：</string>
+      </property>
+     </widget>
+     <widget class="QDateTimeEdit" name="dateTime3">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>140</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="dateTime">
+       <datetime>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>2014</year>
+        <month>1</month>
+        <day>1</day>
+       </datetime>
+      </property>
+      <property name="displayFormat">
+       <string>yyyy-MM-dd HH:mm:ss</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>150</y>
+        <width>21</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>=》</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>90</y>
+        <width>21</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>=》</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="textBrowser_2">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>20</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="timestamp2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>80</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="push_datetotime">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>140</y>
+        <width>112</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 170, 0);</string>
+      </property>
+      <property name="text">
+       <string>转换</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>json转换</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>加密转换</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>IP工具</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>路由跟踪</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>http请求</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>单词翻译</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_8">
+     <attribute name="title">
+      <string>其它</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
