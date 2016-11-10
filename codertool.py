@@ -30,6 +30,11 @@ class codertool(QMainWindow, Ui_codertool):
         now_timestamp = str(int(time.time()))
         self.dateTime3.setText(now_date)
         self.timestamp2.setText(now_timestamp)
+        self.dateTime2.setText('')
+        self.timestamp3.setText('')
+        return
+    def on_push_refresh_clicked(self):
+        self.getNowtime()
         return
     @pyqtSlot()
     def on_push_timetodate_clicked(self):
