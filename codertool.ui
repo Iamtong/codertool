@@ -43,19 +43,6 @@
      <attribute name="title">
       <string>时间戳</string>
      </attribute>
-     <widget class="QLabel" name="label_2">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>27</y>
-        <width>91</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>当时时间</string>
-      </property>
-     </widget>
      <widget class="QPushButton" name="push_timetodate">
       <property name="geometry">
        <rect>
@@ -118,45 +105,6 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label_3">
-      <property name="geometry">
-       <rect>
-        <x>370</x>
-        <y>27</y>
-        <width>91</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>当时时间戳：</string>
-      </property>
-     </widget>
-     <widget class="QDateTimeEdit" name="dateTime3">
-      <property name="geometry">
-       <rect>
-        <x>100</x>
-        <y>140</y>
-        <width>211</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="dateTime">
-       <datetime>
-        <hour>0</hour>
-        <minute>0</minute>
-        <second>0</second>
-        <year>2014</year>
-        <month>1</month>
-        <day>1</day>
-       </datetime>
-      </property>
-      <property name="displayFormat">
-       <string>yyyy-MM-dd HH:mm:ss</string>
-      </property>
-      <property name="calendarPopup">
-       <bool>true</bool>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
@@ -183,26 +131,6 @@
        <string>=》</string>
       </property>
      </widget>
-     <widget class="QTextBrowser" name="textBrowser">
-      <property name="geometry">
-       <rect>
-        <x>100</x>
-        <y>20</y>
-        <width>211</width>
-        <height>41</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QTextBrowser" name="textBrowser_2">
-      <property name="geometry">
-       <rect>
-        <x>470</x>
-        <y>20</y>
-        <width>211</width>
-        <height>41</height>
-       </rect>
-      </property>
-     </widget>
      <widget class="QLineEdit" name="timestamp2">
       <property name="geometry">
        <rect>
@@ -227,6 +155,16 @@
       </property>
       <property name="text">
        <string>转换</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="dateTime3">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>140</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
       </property>
      </widget>
     </widget>

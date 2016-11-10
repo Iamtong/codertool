@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project codertool -->
-<!-- Saved: 2016-11-09, 15:45:18 -->
+<!-- Saved: 2016-11-09, 18:23:16 -->
 <!-- Copyright (C) 2016 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -12,6 +12,7 @@
   <Version>0.1</Version>
   <Author></Author>
   <Email></Email>
+  <Eol index="-1"/>
   <Sources>
     <Source>Ui_codertool.py</Source>
     <Source>__init__.py</Source>
